@@ -1,0 +1,66 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Home Automation</title>
+<style>
+.heading-boxed {
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: .5em 1rem;
+}
+.sub-heading {
+  color: #999;
+  font-size: .8em;
+  font-weight: 500;
+}
+.sub-heading--stacked {
+  display: block;
+  margin-top: .1em;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+ 
+</style>
+</head>
+<body>
+<div class="panel-body">
+    <h1>Welcome John<span class="sub-heading"> userid 23A0</span></h1>
+  </div>
+
+<hr>
+
+<marquee>** currently you have 2 month accesss **</marquee>
+<br><br>
+<br><br>
+<center>
+<h1>LIGHT</h1>
+<br><br>
+<button id="lon" onclick="lighton()" class="btn info">Light On</button>
+<button id="loff" onclick="lightoff()" class="btn info">Light Off</button>
+<br><br><br><br>
+<h1>Fan</h1>
+<br><br>
+<button id="fon" onclick="fanon()" class="btn info">Fan On</button>
+<button id="foff" onclick="fanoff()" class="btn info">Fan Off</button>
+</center>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
