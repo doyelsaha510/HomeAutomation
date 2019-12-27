@@ -9,7 +9,7 @@
     authDomain: "yourDatabase.firebaseapp.com",
     databaseURL: "https://yourdatabaseUrl.firebaseio.com",
     projectId: "projectId",
-    storageBucket: "parkingsystem-abf19.appspot.com",
+    storageBucket: "yourDatabase.appspot.com",
     messagingSenderId: "",
     appId: ""
   };
